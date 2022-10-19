@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.bg-image{
+    background-image: url("./assets/livingRoom.jpg");
+    
+    height: 1100px;
+
+    filter: blur(4px);   
+    -webkit-filter: blur(4px);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    position: absolute;
+    top: -5%;
+    left: 2%;
+}
+
+.desktop-logo{
+    width: 200px;
+}
+
+.desktop-logo:hover{
+    scale: 1.1;
+}
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, .70);
+    color: blue;
+    display: flex;  
+}
+
+.card:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.clock-icon{
+    width: 45px;
+    height: auto;
+    margin: 20px;
+}
+
+.clock-icon:hover{
+    scale: 1.2;
+}
+
+.header{
+    background-color: rgba(255, 255, 255, .70);
+    color: blue;
+    text-align: center; 
+    border-radius: 10px;
+}
