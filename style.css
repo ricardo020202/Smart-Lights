@@ -6,7 +6,8 @@ body, html {
 .bg-image{
     background-image: url("./assets/livingRoom.jpg");
     
-    height: 1100px;
+    /* Full height */
+    height: 100%;
 
     filter: blur(4px);   
     -webkit-filter: blur(4px);
@@ -19,8 +20,7 @@ body, html {
 
 .navbar{
     position: absolute;
-    top: -5%;
-    left: 2%;
+    top: -4%;
 }
 
 .desktop-logo{
@@ -33,24 +33,21 @@ body, html {
 
 .content{
     position: absolute;
-    top: 30%;
-    left: 8%;
+    top: 15%;
 }
 
 .card{
     background-color: rgba(255, 255, 255, .70);
     color: blue;
-    display: flex;  
-}
-
-.card:hover{
-    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    border-radius: 10px;
+    
 }
 
 .clock-icon{
     width: 45px;
     height: auto;
-    margin: 20px;
+    margin: 15px;
 }
 
 .clock-icon:hover{
@@ -62,4 +59,32 @@ body, html {
     color: blue;
     text-align: center; 
     border-radius: 10px;
+    width: 50%;
+}
+
+.plus-button{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 1;
+}
+
+.plus-icon{
+    width: 30px;
+    margin: 15px;
+}
+
+.plus-button:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.form{
+    background-color: rgba(255, 255, 255, .70);
+    border-radius: 10px;
+    width: 30%;
+}
+
+.form-body{
+    padding: 20px;
+    color: blue;
 }

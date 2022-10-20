@@ -14,8 +14,6 @@
         crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
-    <!-- Javascript -->
-    <script src="./main.js"></script>
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,18 +26,30 @@
     <div class="container-fluid bg-image">
 
     </div>
-    <nav class="container navbar">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./assets/SmartLightsLogo.svg" alt="Smart-lights-logo" class="desktop-logo">
-            </a>
+    <nav class="container-fluid navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/SmartLightsLogo.svg" alt="Smart-lights-logo" class="desktop-logo">
+                    </a>
+                </div>
+            </div>
         </div>
     </nav>
 
-    <div class="container content">
+    <div class="container-fluid content">
+        <div class="card plus-button">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <a href="./escenas.html"><img src="./assets/plus.png" alt="" class="plus-icon"></a>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
-            <div class="col">
-                <div class="header" id="button">
+            <div class="col d-flex justify-content-center">
+                <div class="header">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3 class="mt-2 mb-2">Habitaciones</h3>
@@ -51,7 +61,7 @@
 
         <div class="row mt-3 mb-3">
             <div class="col">
-                <div class="card" id="button">
+                <div class="card button" onclick="changeColor1()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 1</h3>
@@ -63,7 +73,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card button" onclick="changeColor2()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 2</h3>
@@ -79,7 +89,7 @@
 
         <div class="row mt-3 mb-3">
             <div class="col">
-                <div class="card" id="button">
+                <div class="card button" onclick="changeColor3()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 3</h3>
@@ -91,7 +101,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card button" onclick="changeColor4()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 4</h3>
@@ -106,8 +116,8 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="header" id="button">
+            <div class="col d-flex justify-content-center">
+                <div class="header">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3 class="mt-2 mb-2">Salas comunes</h3>
@@ -118,7 +128,7 @@
         </div>
         <div class="row mt-3 mb-3">
             <div class="col">
-                <div class="card" id="button">
+                <div class="card button" onclick="changeColor5()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Sala</h3>
@@ -130,7 +140,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card button" onclick="changeColor6()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Comedor</h3>
@@ -145,8 +155,8 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="header" id="button">
+            <div class="col d-flex justify-content-center">
+                <div class="header">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3 class="mt-2 mb-2">Entretenimiento</h3>
@@ -157,7 +167,7 @@
         </div>
         <div class="row mt-3 mb-3">
             <div class="col">
-                <div class="card" id="button">
+                <div class="card button" onclick="changeColor7()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Roof garden</h3>
@@ -169,7 +179,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card button" onclick="changeColor8()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Sala de juegos</h3>
@@ -184,7 +194,7 @@
         </div>
         <div class="row mt-3 mb-3">
             <div class="col">
-                <div class="card" id="button">
+                <div class="card button" onclick="changeColor9()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Alberca</h3>
@@ -196,7 +206,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card">
+                <div class="card button" onclick="changeColor10()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cancha de tenis</h3>
@@ -211,8 +221,8 @@
         </div>
 
         <div class="row">
-            <div class="col">
-                <div class="header" id="button">
+            <div class="col d-flex justify-content-center">
+                <div class="header">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3 class="mt-2 mb-2">Otros</h3>
@@ -223,7 +233,7 @@
         </div>
         <div class="row mt-3 mb-3">
             <div class="col">
-                <div class="card" id="button">
+                <div class="card button" onclick="changeColor11()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Garage</h3>
@@ -238,6 +248,10 @@
         </div>
 
     </div>
+
+
+    <!-- Javascript -->
+    <script src="./main.js"></script>
 </body>
 
 </html>

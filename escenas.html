@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Bootstrap javaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/SmartLightsLogo.svg" type="image/x-icon">
+    <title>Smart Lights</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-image">
+
+    </div>
+    <nav class="container-fluid navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/SmartLightsLogo.svg" alt="Smart-lights-logo" class="desktop-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid content">
+        <div class="container form">
+            <div class="form-body">
+                <form action="" class="m-auto" style="max-width:600px">
+                    <h3 class="my-4">Añadir escena</h3>
+                    <hr class="my-4" />
+                    <div class="form-group mb-3 row"><label for="nombre2" class="col-md-5 col-form-label">Nombre</label>
+                        <div class="col-md-7"><input type="text" class="form-control form-control-lg" id="nombre2"
+                                name="nombre" required></div>
+                    </div>
+                    <div class="form-group mb-3 row"><label for="numero-de-habitaciones3"
+                            class="col-md-5 col-form-label">Numero de habitaciones</label>
+                        <div class="col-md-7"><input type="text" class="form-control form-control-lg"
+                                id="numero-de-habitaciones3" name="numero-de-habitaciones" required></div>
+                    </div>
+                    <div class="form-group mb-3 row"><label for="categoria4"
+                            class="col-md-5 col-form-label">Categoria</label>
+                        <div class="col-md-7"><select class="form-select custom-select custom-select-lg"
+                                id="categoria4">
+                                <option selected>Seleciona una categoria</option>
+                                <option value="1">Habitaciones</option>
+                                <option value="2">Salas comunes</option>
+                                <option value="3">Entretenimiento</option>
+                                <option value="4">Otros</option>
+                            </select></div>
+                    </div>
+                    <hr class="my-4" />
+                    <div class="form-group mb-3 row">
+                        <label for="anadir-escena7"
+                            class="col-md-5 col-form-label">
+                        </label>
+                        <div class="col">
+                            <button class="btn btn-primary btn-lg" type="submit">
+                                Añadir escena
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
