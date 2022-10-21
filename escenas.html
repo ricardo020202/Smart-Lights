@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-image">
+    <div class="container-fluid bg-image-alt">
 
     </div>
     <nav class="container-fluid navbar">
@@ -38,8 +38,56 @@
         </div>
     </nav>
 
-    <div class="container-fluid content">
+    <div class="container-fluid content d-none d-sm-block">
         <div class="container form">
+            <div class="form-body">
+                <form action="" class="m-auto" style="max-width:600px">
+                    <h3 class="my-4">Añadir escena</h3>
+                    <hr class="my-4" />
+                    <div class="form-group mb-3 row"><label for="nombre2" class="col-md-5 col-form-label">Nombre</label>
+                        <div class="col-md-7">
+                            <input type="text" class="form-control form-control-lg" id="nombre2" name="nombre" required>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 row">
+                        <label for="numero-de-habitaciones3"
+                            class="col-md-5 col-form-label">Numero de habitaciones
+                        </label>
+                        <div class="col-md-7">
+                            <input type="text" class="form-control form-control-lg" id="numero-de-habitaciones3" name="numero-de-habitaciones" required>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 row">
+                        <label for="categoria4" class="col-md-5 col-form-label">Categoria</label>
+                        <div class="col-md-7">
+                            <select class="form-select custom-select custom-select-lg"
+                                id="categoria4">
+                                <option selected>Seleciona una categoria</option>
+                                <option value="1">Habitaciones</option>
+                                <option value="2">Salas comunes</option>
+                                <option value="3">Entretenimiento</option>
+                                <option value="4">Otros</option>
+                            </select>
+                        </div>
+                    </div>
+                    <hr class="my-4" />
+                    <div class="form-group mb-3 row">
+                        <label for="anadir-escena7"
+                            class="col-md-5 col-form-label">
+                        </label>
+                        <div class="col">
+                            <button class="btn btn-primary btn-lg" type="submit">
+                                Añadir escena
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid content-mobile-escena d-lg-none d-lg-block">
+        <div class="container form-mobile">
             <div class="form-body">
                 <form action="" class="m-auto" style="max-width:600px">
                     <h3 class="my-4">Añadir escena</h3>

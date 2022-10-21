@@ -23,7 +23,10 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-image">
+    <div class="container-fluid bg-image d-none d-sm-block">
+
+    </div>
+    <div class="container-fluid bg-image-mobile d-lg-none d-lg-block">
 
     </div>
     <nav class="container-fluid navbar">
@@ -38,7 +41,221 @@
         </div>
     </nav>
 
-    <div class="container-fluid content">
+    <!-- Content desktop -->
+    <div class="container-fluid content d-none d-sm-block">
+        <div class="container">
+            <div class="card plus-button">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <a href="./escenas.html"><img src="./assets/plus.png" alt="" class="plus-icon"></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="header">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3 class="mt-2 mb-2">Habitaciones</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="card button" onclick="changeColor1()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Cuarto 1</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="" class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card button" onclick="changeColor2()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Cuarto 2</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock icon"
+                                        class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="card button" onclick="changeColor3()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Cuarto 3</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="" class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card button" onclick="changeColor4()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Cuarto 4</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock icon"
+                                        class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="header">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3 class="mt-2 mb-2">Salas comunes</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="card button" onclick="changeColor5()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Sala</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="" class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card button" onclick="changeColor6()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Comedor</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock icon"
+                                        class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="header">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3 class="mt-2 mb-2">Entretenimiento</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="card button" onclick="changeColor7()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Roof garden</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="" class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card button" onclick="changeColor8()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Sala de juegos</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock icon"
+                                        class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="card button" onclick="changeColor9()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Alberca</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="" class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card button" onclick="changeColor10()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Cancha de tenis</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock icon"
+                                        class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="header">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3 class="mt-2 mb-2">Otros</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3">
+                <div class="col">
+                    <div class="card button" onclick="changeColor11()">
+                        <div class="row">
+                            <div class="col d-flex align-items-center justify-content-center">
+                                <h3>Garage</h3>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock" class="clock-icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content mobile -->
+    <div class="container-fluid content-mobile d-lg-none d-md-none d-lg-block">
         <div class="card plus-button">
             <div class="row">
                 <div class="col d-flex justify-content-center">
@@ -47,7 +264,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-2">
             <div class="col d-flex justify-content-center">
                 <div class="header">
                     <div class="row">
@@ -59,9 +276,9 @@
             </div>
         </div>
 
-        <div class="row mt-3 mb-3">
-            <div class="col">
-                <div class="card button" onclick="changeColor1()">
+        <div class="row">
+            <div class="row">
+                <div class="card button" onclick="changeColor12()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 1</h3>
@@ -72,8 +289,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card button" onclick="changeColor2()">
+            <div class="row">
+                <div class="card button" onclick="changeColor13()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 2</h3>
@@ -87,9 +304,9 @@
             </div>
         </div>
 
-        <div class="row mt-3 mb-3">
-            <div class="col">
-                <div class="card button" onclick="changeColor3()">
+        <div class="row">
+            <div class="row">
+                <div class="card button" onclick="changeColor14()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 3</h3>
@@ -100,8 +317,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card button" onclick="changeColor4()">
+            <div class="row">
+                <div class="card button" onclick="changeColor15()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cuarto 4</h3>
@@ -115,7 +332,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-2 mt-2">
             <div class="col d-flex justify-content-center">
                 <div class="header">
                     <div class="row">
@@ -126,9 +343,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-3 mb-3">
-            <div class="col">
-                <div class="card button" onclick="changeColor5()">
+        <div class="row">
+            <div class="row">
+                <div class="card button" onclick="changeColor16()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Sala</h3>
@@ -139,22 +356,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card button" onclick="changeColor6()">
+            <div class="row">
+                <div class="card button" onclick="changeColor17()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Comedor</h3>
                         </div>
                         <div class="col d-flex justify-content-end">
-                            <a href="./rutinas.html"><img src="./assets/clock.png" alt="clock icon"
-                                    class="clock-icon"></a>
+                            <a href="./rutinas.html"><img src="./assets/clock.png" alt="" class="clock-icon"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-2 mb-2">
             <div class="col d-flex justify-content-center">
                 <div class="header">
                     <div class="row">
@@ -165,9 +381,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-3 mb-3">
-            <div class="col">
-                <div class="card button" onclick="changeColor7()">
+        <div class="row">
+            <div class="row">
+                <div class="card button" onclick="changeColor18()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Roof garden</h3>
@@ -178,8 +394,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card button" onclick="changeColor8()">
+            <div class="row">
+                <div class="card button" onclick="changeColor19()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Sala de juegos</h3>
@@ -192,9 +408,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-3 mb-3">
-            <div class="col">
-                <div class="card button" onclick="changeColor9()">
+        <div class="row">
+            <div class="row">
+                <div class="card button" onclick="changeColor20()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Alberca</h3>
@@ -205,8 +421,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card button" onclick="changeColor10()">
+            <div class="row">
+                <div class="card button" onclick="changeColor21()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Cancha de tenis</h3>
@@ -220,7 +436,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-2 mb-2">
             <div class="col d-flex justify-content-center">
                 <div class="header">
                     <div class="row">
@@ -231,9 +447,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-3 mb-3">
-            <div class="col">
-                <div class="card button" onclick="changeColor11()">
+        <div class="row">
+            <div class="row">
+                <div class="card button" onclick="changeColor22()">
                     <div class="row">
                         <div class="col d-flex align-items-center justify-content-center">
                             <h3>Garage</h3>
@@ -246,7 +462,6 @@
             </div>
             <div class="col"></div>
         </div>
-
     </div>
 
 
